@@ -114,30 +114,43 @@ nav ul li a:focus {
 /*Limonations*/
 
 footer {
-    background-color: #f4f4f4;
-    padding: 10px 20px;
+    background-color: transparent;
+    padding: 5px 20px;
     display: flex;
     justify-content: center; 
     align-items: center;
     display: block;
-    overflow: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    min-height: 40px; /* controla o tamanho vertical */
   }
-  .fuinha {
+
+  /*fuinhas do footer*/
+
+  .fuinhaplus {
     align-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
   }
 
-  .fuinha p {
-    grid-column: 2; /* Segunda coluna (meio) */
-    text-align: center; /* Centraliza o texto */
-    justify-self: center; /* Centraliza horizontalmente na célula */
-    color: transparent;
+  .fuinha2 {
+    grid-column: 3; 
+    background-color: transparent;
+    margin: 0;
+    padding: 0; 
 }
 
-    .fuinha2 {
-    grid-column: 3; }
-  
+  .fuinha3 {
+    grid-column: 2; 
+    text-align: center; 
+    justify-self: center; 
+    margin: 0;
+    padding: 0;
+}
+
   .redes {
     width: 30px;  
     height: auto;
@@ -146,7 +159,7 @@ footer {
     transition: transform 0.2s;
     border-radius: 20%;
     float: right;  
-  }
+}
 
   /*Classes avulsas*/
 .fuinha {
