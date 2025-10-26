@@ -117,20 +117,21 @@ footer {
     background-color: #f4f4f4;
     padding: 10px 20px;
     display: flex;
-    justify-content: center; /* Texto à esquerda, ícones à direita */
+    justify-content: center; 
     align-items: center;
     display: block
   }
   
   .footer-icon {
-    width: 30px;   /* tamanho pequeno */
+    width: 30px;  
     height: auto;
-    margin-left: 5px; /* espaço entre os ícones */
+    margin-left: 5px; 
     cursor: pointer;
     transition: transform 0.2s;
     border-radius: 20%;
   }
 
+  /*Classes avulsas*/
 .fuinha {
     width: auto; 
     height: auto;
@@ -148,13 +149,14 @@ h2 {
     text-align: center;
     margin-left: 25px;
 }
+/*fecha classes avulsas*/
 
 section {
     background: #f4f4f4;
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 10px;
-    overflow: auto; /* evita bug com float */
+    overflow: auto; 
 }
 
 figure {
@@ -174,23 +176,25 @@ figcaption {
     color: #555;
 }
 
-/*fecha limonations*/
+/* Layout com grid */
 main {
     display: grid;
-    grid-template-columns: 3fr 1fr; /* 3 partes para as sections, 1 para aside */
+    grid-template-columns: 3fr 1fr; 
     gap: 20px;
     padding: 20px;
-    min-height: 60vh; /* garante espaço vertical para distribuir as 2 linhas */
+    min-height: 60vh; 
     align-items: start;
-    grid-auto-rows: 1fr; /* faz com que as linhas do grid ocupem frações iguais */
+    grid-auto-rows: 1fr; 
 }
-                                           
+      
+/*grid do grid*/
+
 .grid-sections {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr; /* duas linhas iguais */
+    grid-template-rows: 1fr 1fr; 
     gap: 20px;
-    height: 100%; /* para que as células 1fr da grid usem toda a altura disponível */
+    height: 100%; 
 }
 
 /* Cada section dentro da grade */
@@ -199,13 +203,11 @@ main {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
-
-    /* Permite que a seção role se o conteúdo for maior que o espaço */
     overflow: auto;
-
-    /* importante para layouts de grid/flex quando se usa overflow */
     min-height: 0;
 }
+
+/*fecha limonations*/
 
 /* Barra lateral */
 aside {
@@ -213,7 +215,7 @@ aside {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
-    /* garante que o aside se estique verticalmente junto com a coluna do grid */
+    /* importante */
     align-self: stretch;
 }
 aside h3 {
@@ -232,6 +234,33 @@ aside ul li a {
 aside ul li a:hover,
 aside ul li a:focus {
     text-decoration: underline;
+}
+
+/*Classes das notícias do aside*/
+.noticias {
+    background: linear-gradient(135deg, #c2d6ff 0%, #80b3ff 100%);
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border-left: 4px solid #00264d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.imagens_aside {
+    width: 250px;
+    height: auto;
+}
+
+.titulo_noticias {
+    color: #111;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* Rodapé */
