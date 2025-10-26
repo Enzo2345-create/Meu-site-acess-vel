@@ -132,8 +132,16 @@ footer {
   }
 
 .fuinha {
-    width: 300px; 
-    height: 100px;
+    width: auto; 
+    height: auto;
+}
+
+.texto {
+    text-align: justify;
+}
+
+.titulo {
+    text-align: center;
 }
 
 h2 {
