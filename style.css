@@ -122,7 +122,7 @@ footer {
     display: block;
     margin-top: 0;
     margin-bottom: 0;
-    min-height: 40px; /* controla o tamanho vertical */
+    min-height: 40px; 
   }
 
   /*fuinhas do footer*/
