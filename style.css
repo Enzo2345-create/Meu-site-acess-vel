@@ -231,6 +231,21 @@ main {
     overflow: auto;
     min-height: 0;
 }
+/*ADAPTAÇÕES DO TOPO DE CONTROLE*/
+.top-control section {
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    overflow: visible !important;
+}
+
+.nav-shortcuts,
+.accessibility-tools {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}
 
 /*fecha limonations*/
 
