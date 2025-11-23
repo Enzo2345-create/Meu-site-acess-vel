@@ -154,14 +154,13 @@ nav ul li a:focus {
 }
 
   /*Classes avulsas*/
-.fuinha {
+  .fuinha {
     float: left;             
     margin-right: 15px;       
     max-width: 150px;      
     height: auto;
     border-radius: 5px;
 }
-
 .texto {
     text-align: justify;
 }
