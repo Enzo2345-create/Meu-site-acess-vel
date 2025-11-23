@@ -176,13 +176,14 @@ h2 {
 }
 /*fecha classes avulsas*/
 
-section {
+main section {
     background: #f4f4f4;
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 10px;
     overflow: auto; 
 }
+
 
 figure.figure-float {
     float: left;
